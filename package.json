@@ -1,0 +1,39 @@
+{
+  "name": "naughty-locks",
+  "version": "0.1.0",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "license": "MIT",
+  "description": "JavaScript concurrency primitives",
+  "main": "main.js",
+  "types": "main.d.ts",
+  "readmeFilename": "README.md",
+  "keywords": [
+    "concurrency",
+    "locks",
+    "lock",
+    "mutex",
+    "semaphore",
+    "counter semaphore",
+    "exclusive capture"
+  ],
+  "files": [
+    "lib/",
+    "main.d.ts"
+  ],
+  "scripts": {
+    "types": "tsc -p ./tsconfig.json",
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaughtySora/naughty-locks"
+  },
+  "bugs": {
+    "url": "https://github.com/NaughtySora/naughty-locks/issues",
+    "email": "naughtysora@proton.me"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.2"
+  }
+}
