@@ -2,7 +2,7 @@
 
 - Look on tests to see usage
 
-### Mutex (mutual exclusion)
+### Mutex
 
 `class Mutex {`
 `  constructor(buffer: SharedArrayBuffer, offset?: number);`
