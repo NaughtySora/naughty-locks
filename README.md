@@ -4,7 +4,7 @@
 
 ### Mutex
 
-`class Mutex {`
+- `class Mutex {`
 `  constructor(buffer: SharedArrayBuffer, offset?: number);`
 `  enter(): void;`
 `  leave(): void;`
@@ -14,12 +14,12 @@
 
 ### Semaphore 
 
-`interface SemaphoreOptions {`
+- `interface SemaphoreOptions {`
 `  offset?: number;`
 `  concurrency?: number;`
 `}`
 
-`class Semaphore {`
+- `class Semaphore {`
 `  constructor(buffer: SharedArrayBuffer, options: SemaphoreOptions);
 `  enter(): void;`
 `  leave(): void;`
@@ -28,7 +28,7 @@
 
 ### Exclusive Semaphore
 
-`class ExclusiveSemaphore extends Semaphore {`
+- `class ExclusiveSemaphore extends Semaphore {`
 `  exclusive(): void;`
 `  leaveExclusive(): void;`
 `}`
